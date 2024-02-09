@@ -1,0 +1,36 @@
+{
+    "product": [
+      { 
+        "id": "1", 
+        "name": "A-stores",
+        "address": "14,title avenue",
+        "description":"lovely product",
+        "price":100,
+        "warranty":"7 months",
+        "views": 100,
+        "rating":4.5,
+        "vendor_name":"Adeolu",
+        "product-available":"all varieties of products are available"
+     },
+
+      { 
+        "id": "1", 
+        "name": "A-stores",
+        "address": "14,title avenue",
+        "description":"lovely product",
+        "price":100,
+        "warranty":"7 months",
+        "views": 100,
+        "rating":4.5,
+        "vendor_name":"Adeolu",
+        "product-available":"all varieties of products are available"
+       }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
