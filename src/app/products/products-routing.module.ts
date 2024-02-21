@@ -12,18 +12,12 @@ import { ViewAllProductsByDateComponent } from './view-all-products-by-date/view
 const routes: Routes = [
   { path: '', component: ProductsComponent },
   { path: 'create-product', component: CreateProductComponent },
-  { path: 'delete-product', component: DeleteProductComponent },
-  { path: 'update-product', component: UpdateProductComponent },
-  { path: 'view-product', component: ViewProductComponent },
-  { path: 'view-all-products', component: ViewAllProductsComponent },
-  {
-    path: 'view-all-product-by-category',
-    component: ViewAllProductsByCategoryComponent,
-  },
-  {
-    path: 'view-all-product-by-date',
-    component: ViewAllProductsByDateComponent,
-  },
+  { path: 'list-products', component: ViewAllProductsComponent },
+  { path: 'search', component: ViewAllProductsByCategoryComponent },
+  { path: 'search-date', component: ViewAllProductsByDateComponent },
+  { path: 'delete-product/:id', component: DeleteProductComponent },
+  { path: 'view-product/:id', component: ViewProductComponent },
+  { path: 'update-product/:id', component: UpdateProductComponent },
 ];
 
 @NgModule({
