@@ -1,30 +1,148 @@
 {
     "product": [
       { 
-        "id": "1", 
-        "name": "A-stores",
+        "id": "1",  
+        "categoryId": 2,
+        "productName": "A-stores",
         "address": "14,title avenue",
-        "description":"lovely product",
+        "description":"Lovely product",
         "price":100,
         "warranty":"7 months",
         "views": 100,
-        "rating":4.5,
-        "vendor_name":"Adeolu",
-        "product-available":"all varieties of products are available"
+        "productImg": "http://localhost:4200/assets/1.jpg",
+        "rating":4.8,
+        "vendor_name":"Tobi",
+        "isAvailable": true
      },
 
       { 
-        "id": "1", 
-        "name": "A-stores",
+        "id": "2",  
+        "categoryId": 4,
+        "productName": "B-stores",
         "address": "14,title avenue",
-        "description":"lovely product",
-        "price":100,
+        "description":"Standard",
+        "price":150,
         "warranty":"7 months",
-        "views": 100,
+        "views": 107,
+        "productImg": "http://localhost:4200/assets/2.jpg",
         "rating":4.5,
-        "vendor_name":"Adeolu",
-        "product-available":"all varieties of products are available"
-       }
+        "vendor_name":"Daps",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "3",  
+        "categoryId": 6,
+        "productName": "C-stores",
+        "address": "14,title avenue",
+        "description":"Fabric",
+        "price":170,
+        "warranty":"7 months",
+        "views": 115,
+        "productImg": "http://localhost:4200/assets/3.jpg",
+        "rating":4.7,
+        "vendor_name":"Sam",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "4",  
+        "categoryId": 8,
+        "productName": "D-stores",
+        "address": "14,title avenue",
+        "description":"Caf-tan",
+        "price":210,
+        "warranty":"7 months",
+        "views": 103,
+        "productImg": "http://localhost:4200/assets/4.jpg",
+        "rating":4.9,
+        "vendor_name":"Chima",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "5",  
+        "categoryId": 10,
+        "productName": "D-stores",
+        "address": "14,title avenue",
+        "description":"Sweats",
+        "price":270,
+        "warranty":"7 months",
+        "views": 175,
+        "productImg": "http://localhost:4200/assets/5.jpg",
+        "rating":5.0,
+        "vendor_name":"Mat",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "6",  
+        "categoryId": 12,
+        "productName": "D-stores",
+        "address": "14,title avenue",
+        "description":"Jumps",
+        "price":330,
+        "warranty":"7 months",
+        "views": 134,
+        "productImg": "http://localhost:4200/assets/6.jpg",
+        "rating":4.8,
+        "vendor_name":"Dan",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "7",  
+        "categoryId": 14,
+        "productName": "D-stores",
+        "address": "14,title avenue",
+        "description":"Swim",
+        "price":415,
+        "warranty":"7 months",
+        "views": 101,
+        "productImg": "http://localhost:4200/assets/7.jpg",
+        "rating":4.1,
+        "vendor_name":"Alex",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "8",  
+        "categoryId": 16,
+        "productName": "D-stores",
+        "address": "14,title avenue",
+        "description":"Flair",
+        "price":375,
+        "warranty":"7 months",
+        "views": 124,
+        "productImg": "http://localhost:4200/assets/8.jpg",
+        "rating":4.5,
+        "vendor_name":"Tunji",
+        "isAvailable": true
+     },
+
+      { 
+        "id": "9",  
+        "categoryId": 18,
+        "productName": "D-stores",
+        "address": "14,title avenue",
+        "description":"Linning",
+        "price":355,
+        "warranty":"7 months",
+        "views": 106,
+        "productImg": "http://localhost:4200/assets/9.jpg",
+        "rating":4.4,
+        "vendor_name":"Joe",
+        "isAvailable": true
+     }
+
+     
+    ],
+    "categories": [
+      { "id": "1", "categoryName": "polo shirt"},
+      { "id": "2", "categoryName": "soccer shirt" },
+      { "id": "3", "categoryName": "casual shirt" },
+      { "id": "4", "categoryName": "pro shirt" },
+      { "id": "5", "categoryName": "classy shirt" }
     ],
     "comments": [
       { "id": "1", "text": "a comment about post 1", "postId": "1" },
